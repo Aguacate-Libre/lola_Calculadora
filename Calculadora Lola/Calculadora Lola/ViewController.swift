@@ -17,8 +17,9 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func que_hacer_pushar_boton(_ sender: Any) {
-        texto_a_cambiar.text = "Gracias"
+    @IBAction func que_hacer_pushar_boton(_ sender: UIButton) {
+        //texto_a_cambiar.text = (sender as UIButton).titleLabel.text
+        texto_a_cambiar.text = sender.titleLabel!.text ?? "Nosupe"
     }
     
 
