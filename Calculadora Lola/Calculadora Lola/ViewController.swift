@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         
         else if(estado_actual == estados_de_la_calculadora.escoger_operacion)
         {
-            if let _mensajero: UIButton? = sender.restorationIdentifier
+            if let _mensajero_id = sender.restorationIdentifier
             {
                 operacion_actual = botones_interfaz[_mensajero_id]?.operacion
                 estado_actual = estados_de_la_calculadora.seleccionar_numeros
