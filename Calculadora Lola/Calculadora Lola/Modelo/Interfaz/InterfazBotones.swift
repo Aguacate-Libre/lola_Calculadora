@@ -6,17 +6,17 @@
 //
 
 import Foundation
+import UIKit
 
 struct IUBotonCalculadora
 {
-    var RestorationId: String
+    var Referencia_a_boton_interfaz: UIButton?
     var num: Character
     var operacion: String
     
-    init (_ id: String, numero: Character, operaciones:
-    String)
+    init (numero: Character, operaciones: String)
     {
-        self.RestorationId = id
+        self.Referencia_a_boton_interfaz = nil
         self.num = numero
         self.operacion = operaciones
     }
@@ -28,52 +28,42 @@ struct IUBotonCalculadora
         for numero in 0...9
         {
             botones_interfaz["boton_0"] = IUBotonCalculadora(
-                "boton_0",
                 numero: Character("0"),
                 operaciones: "")
             
             botones_interfaz["boton_1"] = IUBotonCalculadora(
-                "boton_1",
                 numero: Character("1"),
                 operaciones: "+")
             
             botones_interfaz["boton_2"] = IUBotonCalculadora(
-                "boton_2",
                 numero: Character("2"),
                 operaciones: "")
             
             botones_interfaz["boton_3"] = IUBotonCalculadora(
-                "boton_3",
                 numero: Character("3"),
                 operaciones: "-")
             
             botones_interfaz["boton_4"] = IUBotonCalculadora(
-                "boton_4",
                 numero: Character("4"),
                 operaciones: "")
             
             botones_interfaz["boton_5"] = IUBotonCalculadora(
-                "boton_5",
                 numero: Character("5"),
                 operaciones: "")
             
             botones_interfaz["boton_6"] = IUBotonCalculadora(
-                "boton_6",
                 numero: Character("6"),
                 operaciones: "")
             
             botones_interfaz["boton_7"] = IUBotonCalculadora(
-                "boton_7",
                 numero: Character("7"),
                 operaciones: "*")
             
             botones_interfaz["boton_8"] = IUBotonCalculadora(
-                "boton_8",
                 numero: Character("8"),
                 operaciones: "")
             
             botones_interfaz["boton_9"] = IUBotonCalculadora(
-                "boton_9",
                 numero: Character("9"),
                 operaciones: "/")
         }

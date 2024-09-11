@@ -25,37 +25,37 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="YwH-wO-9z3">
-                                <rect key="frame" x="82.333333333333329" y="446.99999999999994" width="228.66666666666669" height="227.33333333333331"/>
+                                <rect key="frame" x="82.333333333333329" y="426.66666666666669" width="228.66666666666669" height="227.33333333333331"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Mrc-IM-Vuk">
                                         <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="227.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfK-Sc-dY1">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfK-Sc-dY1">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="1"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivI-gm-zDd"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vZC-Sg-tCZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIu-Dy-1WP">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIu-Dy-1WP">
                                                 <rect key="frame" x="0.0" y="64.333333333333314" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="4"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acd-R9-LaX"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idY-71-ysH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzJ-BJ-HaJ">
-                                                <rect key="frame" x="0.0" y="128.66666666666663" width="34.666666666666664" height="34.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzJ-BJ-HaJ">
+                                                <rect key="frame" x="0.0" y="128.66666666666669" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="7"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R72-qK-C7M"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSA-f0-6Jy"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_PUNTO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn1-Ml-QFe">
-                                                <rect key="frame" x="0.0" y="193" width="34.666666666666664" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="192.99999999999994" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title=".">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
@@ -66,36 +66,36 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="OEl-cI-0H0">
                                         <rect key="frame" x="64.666666666666671" y="0.0" width="34.666666666666671" height="227.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6F-Sq-Puu">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6F-Sq-Puu">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="2"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FkT-K8-gyI"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q7M-vb-eAy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh3-Xt-hxI">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sh3-Xt-hxI">
                                                 <rect key="frame" x="0.0" y="64.333333333333314" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="5"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGU-FS-liY"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pkw-EG-qLP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoE-fO-pjh">
-                                                <rect key="frame" x="0.0" y="128.66666666666663" width="34.666666666666664" height="34.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoE-fO-pjh">
+                                                <rect key="frame" x="0.0" y="128.66666666666669" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="8"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Swx-82-GiF"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uSw-by-UpK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvq-fh-qMa">
-                                                <rect key="frame" x="0.0" y="193" width="34.666666666666664" height="34.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvq-fh-qMa">
+                                                <rect key="frame" x="0.0" y="192.99999999999994" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="0"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dfc-j4-U3m"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YBH-nT-Trq"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -103,32 +103,32 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="juT-98-1Wh">
                                         <rect key="frame" x="129.33333333333331" y="0.0" width="34.666666666666657" height="227.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNW-OB-djv">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNW-OB-djv">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="3"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CEI-07-cIh"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nf7-7t-WJb"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOv-OX-YbS">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOv-OX-YbS">
                                                 <rect key="frame" x="0.0" y="64.333333333333314" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="6"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g4n-YA-4VP"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R2o-mi-y5e"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAL-XA-rER">
-                                                <rect key="frame" x="0.0" y="128.66666666666663" width="34.666666666666664" height="34.333333333333343"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAL-XA-rER">
+                                                <rect key="frame" x="0.0" y="128.66666666666669" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="9"/>
                                                 <connections>
-                                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOb-a0-dfc"/>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEE-QB-evt"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_RES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hza-yb-bKX">
-                                                <rect key="frame" x="0.0" y="193" width="34.666666666666664" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="192.99999999999994" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="=">
                                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
@@ -154,14 +154,14 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_SUMA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ7-aJ-e1Y">
-                                                <rect key="frame" x="0.0" y="128.66666666666663" width="34.333333333333336" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="128.66666666666669" width="34.333333333333336" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_RESTA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsk-uY-etd">
-                                                <rect key="frame" x="0.0" y="193" width="34.333333333333336" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="192.99999999999994" width="34.333333333333336" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
@@ -172,23 +172,20 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_Para_Hacer_Cosas" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCg-9C-0SL">
-                                <rect key="frame" x="153" y="317.66666666666669" width="87" height="34.333333333333314"/>
+                                <rect key="frame" x="153" y="297.33333333333331" width="87" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="De nada">
                                     <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="que_hacer_pushar_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Abl-mO-xCV"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operacion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9L1-GB-gCe">
-                                <rect key="frame" x="157" y="388" width="79" height="20.333333333333314"/>
+                                <rect key="frame" x="157" y="367.66666666666669" width="79" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hola mundo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB1-lo-pcv">
-                                <rect key="frame" x="150.66666666666666" y="280.33333333333331" width="92" height="20.333333333333314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB1-lo-pcv">
+                                <rect key="frame" x="196.66666666666666" y="280.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
@@ -210,8 +207,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="boton_operacion" destination="hza-yb-bKX" id="k2Z-6K-avL"/>
+                        <outlet property="boton_operacion" destination="hza-yb-bKX" id="rO8-zg-dUO"/>
                         <outlet property="boton_para_interactuar" destination="eCg-9C-0SL" id="fvE-ml-cDJ"/>
+                        <outlet property="stack_view" destination="YwH-wO-9z3" id="Saf-hz-vkc"/>
                         <outlet property="texto_a_cambiar" destination="UB1-lo-pcv" id="bHU-RX-QSf"/>
                     </connections>
                 </viewController>
