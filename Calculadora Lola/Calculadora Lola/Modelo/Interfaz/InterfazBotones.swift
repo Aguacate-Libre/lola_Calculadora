@@ -25,7 +25,7 @@ struct IUBotonCalculadora
     {
         var botones_interfaz: Dictionary<String, IUBotonCalculadora> = [:]
         
-        for numero in 0...9
+        for _ in 0...9
         {
             botones_interfaz["boton_0"] = IUBotonCalculadora(
                 numero: Character("0"),
@@ -66,6 +66,26 @@ struct IUBotonCalculadora
             botones_interfaz["boton_9"] = IUBotonCalculadora(
                 numero: Character("9"),
                 operaciones: "/")
+            
+             botones_interfaz["boton_MULT"] = IUBotonCalculadora(
+                 numero: Character("x"),
+                 operaciones: "x")
+             
+             botones_interfaz["boton_DIV"] = IUBotonCalculadora(
+                 numero: Character("/"),
+                 operaciones: "/")
+             
+             botones_interfaz["boton_SUMA"] = IUBotonCalculadora(
+                 numero: Character("+"),
+                 operaciones: "+")
+             
+             botones_interfaz["boton_RESTA"] = IUBotonCalculadora(
+                 numero: Character("-"),
+                 operaciones: "-")
+             
+             botones_interfaz["boton_PUNTO"] = IUBotonCalculadora(
+                 numero: Character("."),
+                 operaciones: "")
         }
         
         return botones_interfaz

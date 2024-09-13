@@ -54,12 +54,15 @@
                                                     <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSA-f0-6Jy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_PUNTO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn1-Ml-QFe">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_PUNTO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn1-Ml-QFe">
                                                 <rect key="frame" x="0.0" y="192.99999999999994" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title=".">
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u68-vf-8Vn"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -127,45 +130,60 @@
                                                     <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EEE-QB-evt"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_RES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hza-yb-bKX">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_RES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hza-yb-bKX">
                                                 <rect key="frame" x="0.0" y="192.99999999999994" width="34.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="=">
                                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="obtener_resultado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVX-ps-U8R"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bRZ-7S-tHd">
                                         <rect key="frame" x="194.33333333333337" y="0.0" width="34.333333333333343" height="227.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_MULT" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tML-Pi-nWW">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_MULT" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tML-Pi-nWW">
                                                 <rect key="frame" x="0.0" y="0.0" width="34.333333333333336" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="x">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="multiplicar_numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="78d-1X-dUr"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_DIV" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCS-nh-1nx">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_DIV" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCS-nh-1nx">
                                                 <rect key="frame" x="0.0" y="64.333333333333314" width="34.333333333333336" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="/">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="dividir_numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dNd-gL-cgX"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_SUMA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ7-aJ-e1Y">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_SUMA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ7-aJ-e1Y">
                                                 <rect key="frame" x="0.0" y="128.66666666666669" width="34.333333333333336" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="+">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sumar_numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xve-sU-feW"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="Boton_RESTA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsk-uY-etd">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="boton_RESTA" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsk-uY-etd">
                                                 <rect key="frame" x="0.0" y="192.99999999999994" width="34.333333333333336" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="-">
                                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="restar_numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WBc-TP-5Uo"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -207,7 +225,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="boton_operacion" destination="hza-yb-bKX" id="rO8-zg-dUO"/>
                         <outlet property="boton_para_interactuar" destination="eCg-9C-0SL" id="fvE-ml-cDJ"/>
                         <outlet property="stack_view" destination="YwH-wO-9z3" id="Saf-hz-vkc"/>
                         <outlet property="texto_a_cambiar" destination="UB1-lo-pcv" id="bHU-RX-QSf"/>
